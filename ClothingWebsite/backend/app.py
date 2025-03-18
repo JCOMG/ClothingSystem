@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify, send_file
 import os
 import aa
 
-
+print(123)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # 獲取 `backend` 目錄
 REACT_BUILD_DIR = os.path.join(BASE_DIR, "../frontend/build")  # 指向 `frontend/build`
 
